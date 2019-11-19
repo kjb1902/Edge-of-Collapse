@@ -1,4 +1,5 @@
 sceneSetups:
-- path: Assets/2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game/Scenes/Menu.unity
+- path: Assets/2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game/Scenes/Advanced
+    Spawner/DemoAdvanced.unity
   isLoaded: 1
   isActive: 1
