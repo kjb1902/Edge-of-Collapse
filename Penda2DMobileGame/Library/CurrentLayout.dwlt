@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 498}
   m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 48
+  controlID: 122
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 47
+  controlID: 121
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -212,8 +212,8 @@ MonoBehaviour:
     y: 0
     width: 435
     height: 731
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 74}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -302,9 +302,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f8340000
-      m_LastClickedID: 13560
-      m_ExpandedIDs: e4eeffffd6f0ffffd6f1ffff5cf2ffffd6f2ffffd6fbffff
+      m_SelectedIDs: aa2b0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: bcfaffffd6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -401,20 +401,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game/Materials
+    - Assets/2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game/Materials
+  - Assets/2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\kiera\Documents\University Work\Year 2\GAM2002\Edge
     of Collapse\Penda2DMobileGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 89.090904}
-    m_SelectedIDs: 682c0000
-    m_LastClickedID: 11368
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: a4290000
+    m_LastClickedID: 10660
     m_ExpandedIDs: 00000000782600003c2700001c2800007a29000098290000a4290000362a0000ac2b0000f62b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -495,7 +495,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 40}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 239
 --- !u!114 &15
