@@ -1,4 +1,5 @@
 sceneSetups:
-- path: Assets/2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game/Scenes/Menu.unity
+- path: Assets/2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game/Scenes/Documentation
+    Demo/Normal Mode.unity
   isLoaded: 1
   isActive: 1
