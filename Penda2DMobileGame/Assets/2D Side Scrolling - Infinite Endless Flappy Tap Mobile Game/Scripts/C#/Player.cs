@@ -48,17 +48,17 @@ public class Player : MonoBehaviour
 	{
 		if (showGUI)
 		{
-			GUI.Label (new Rect (17, 17, 110, 110), "<b>Distance:</b> " +score + "km", ScreenScore);
+			GUI.Label (new Rect (17, 17, 110, 110), "<b>Distance Travelled:</b> " +score + "", ScreenScore);
 		}
 
 		if (showGUI1)
 		{
 			//The GUI that will be displayed when the game ends onscreen and onclick; the player will return to menu.
-			GUI.DrawTexture(new Rect(((Screen.width / 2) - 999f), ((Screen.height / 30) - 1281.5f), 4190, 4125), EndgameHudBackground, ScaleMode.ScaleToFit, true, 0.0F);
-			GUI.DrawTexture(new Rect(((Screen.width / 4) - 96f), ((Screen.height / 4) - 258.5f), 750, 762), EndgameHudForeground, ScaleMode.ScaleToFit, true, 0.0F);
+			GUI.DrawTexture(new Rect(((Screen.width / 10) - 999f), ((Screen.height / 30) - 1281.5f), 4190, 4125), EndgameHudBackground, ScaleMode.ScaleToFit, true, 0.0F);
+			GUI.DrawTexture(new Rect(((Screen.width / 6) - 192f), ((Screen.height / 3) - 200f), 750, 762), EndgameHudForeground, ScaleMode.ScaleToFit, true, 0.0F);
 			//DisplayScore.normal.textColor = Color.white;
 			//guiStyle.alignment = TextAnchor.MiddleCenter;
-			GUI.Label (new Rect(Screen.width / 4 - 50f, ((Screen.height / 2) - 34.5f), 80, -105), " "+score + "km", DisplayScore);
+			GUI.Label (new Rect(Screen.width / 4 - 50f, ((Screen.height / 2) - 34.5f), 80, -105), "Final Distance " + score + "", DisplayScore);
 				if (Input.GetMouseButtonDown(0)) {
 					Application.LoadLevel ("Menu");
 					}
