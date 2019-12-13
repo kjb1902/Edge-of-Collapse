@@ -55,7 +55,7 @@ public class Player : MonoBehaviour
 		{
 			//The GUI that will be displayed when the game ends onscreen and onclick; the player will return to menu.
 			GUI.DrawTexture(new Rect(((Screen.width / 10) - 999f), ((Screen.height / 30) - 1281.5f), 4190, 4125), EndgameHudBackground, ScaleMode.ScaleToFit, true, 0.0F);
-			GUI.DrawTexture(new Rect(((Screen.width / 6) - -350f), ((Screen.height / 3) - 250f), 750, 762), EndgameHudForeground, ScaleMode.ScaleToFit, true, 0.0F);
+			GUI.DrawTexture(new Rect(((Screen.width / 6) - 135f), ((Screen.height / 3) - 330f), 750, 762), EndgameHudForeground, ScaleMode.ScaleToFit, true, 0.0F);
 			//DisplayScore.normal.textColor = Color.white;
 			//guiStyle.alignment = TextAnchor.MiddleCenter;
 			GUI.Label (new Rect(Screen.width / 4 - 50f, ((Screen.height / 2) - 34.5f), 80, -105), "Final Distance " + score + "", DisplayScore);
