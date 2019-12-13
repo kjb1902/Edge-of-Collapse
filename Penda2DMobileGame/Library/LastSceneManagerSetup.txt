@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game/Scenes/Levels/Normal
+- path: Assets/2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game/Scenes/Levels/Mad
     Mode.unity
   isLoaded: 1
   isActive: 1
