@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game\Scripts\C#\CameraFollow.cs" />
     <Compile Include="Assets\2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game\Scripts\C#\CrosshairScript.cs" />
+    <Compile Include="Assets\2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game\Scripts\C#\DeathSoundOnCollision.cs" />
     <Compile Include="Assets\2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game\Scripts\C#\DestoryOnClick.cs" />
     <Compile Include="Assets\2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game\Scripts\C#\DestroyGameobject.cs" />
     <Compile Include="Assets\2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game\Scripts\C#\FadeScreen.cs" />

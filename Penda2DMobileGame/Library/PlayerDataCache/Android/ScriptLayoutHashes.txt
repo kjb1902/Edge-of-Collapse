@@ -4,7 +4,7 @@ C:/Users/kiera/Documents/University Work/Year 2/GAM2002/Edge of Collapse/Penda2D
 SceneListBegin?
 Assets/2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game/Scenes/Menu/Menu.unity
 Assets/2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game/Scenes/Levels/Normal Mode.unity
-Assets/2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game/Scenes/Levels/Mirror Mode.unity
+Assets/2D Side Scrolling - Infinite Endless Flappy Tap Mobile Game/Scenes/Levels/Mad Mode.unity
 SceneListEnd?
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 01aa15e337e3a9c62f15153dfac6d589 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
@@ -175,5 +175,6 @@ cfcff58193432939670fb1d1debc9d87 Assembly-CSharp.dll:.MoveLeft
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DestroyGameobject
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 02c18bf6cb121413d5b535697ad17147 Assembly-CSharp.dll:.CameraFollow
-35252c33f1004b7e1ef634b34506714d Assembly-CSharp.dll:.Player
+90e514f0517ca86d23a4cfd7110e2d39 Assembly-CSharp.dll:.Player
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DestoryOnClick
+8aa529d2c38e69dbb7fcbc288679a0cc Assembly-CSharp.dll:.DeathSoundOnCollision
