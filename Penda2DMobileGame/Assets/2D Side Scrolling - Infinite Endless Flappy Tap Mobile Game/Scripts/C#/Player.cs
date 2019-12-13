@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
 	public Texture EndgameHudBackground; 	//The HUDs that will be displayed when the game ends (1).
 	public Texture EndgameHudForeground; //The HUDs that will be displayed when the game ends (2).
 	bool showGUI = true; //The GUI will be shown.
-	public AudioClip EndgameSound; //The audio that will play when the game ends.
+	public AudioClip DeathSound; //The audio that will play when the game ends.
 	//public AudioClip JumpSound; //Sound will play when ever the player jumps.
 	public static int score; //The score distance of the player.
 	//float startTime; //Start timer.
@@ -55,7 +55,7 @@ public class Player : MonoBehaviour
 		{
 			//The GUI that will be displayed when the game ends onscreen and onclick; the player will return to menu.
 			GUI.DrawTexture(new Rect(((Screen.width / 10) - 999f), ((Screen.height / 30) - 1281.5f), 4190, 4125), EndgameHudBackground, ScaleMode.ScaleToFit, true, 0.0F);
-			GUI.DrawTexture(new Rect(((Screen.width / 6) - 192f), ((Screen.height / 3) - 200f), 750, 762), EndgameHudForeground, ScaleMode.ScaleToFit, true, 0.0F);
+			GUI.DrawTexture(new Rect(((Screen.width / 6) - -350f), ((Screen.height / 3) - 250f), 750, 762), EndgameHudForeground, ScaleMode.ScaleToFit, true, 0.0F);
 			//DisplayScore.normal.textColor = Color.white;
 			//guiStyle.alignment = TextAnchor.MiddleCenter;
 			GUI.Label (new Rect(Screen.width / 4 - 50f, ((Screen.height / 2) - 34.5f), 80, -105), "Final Distance " + score + "", DisplayScore);
@@ -67,16 +67,16 @@ public class Player : MonoBehaviour
 		
 	void OnCollisionEnter2D(Collision2D other)
 	{
-		GetComponent<AudioSource>().PlayOneShot(EndgameSound, 7.7F);
+		GetComponent<AudioSource>().PlayOneShot(DeathSound, 7.7F);
 		Die();
 		showGUI1 = true;
 	}
-	
-	void Die()
-	{
-			Destroy (GameObject.FindWithTag("Music"));
-			showGUI1 = true;
-			Time.timeScale = 0.0f;
-		}
-	}
+
+    void Die()
+    {
+        Destroy(GameObject.FindWithTag("Music"));
+        showGUI1 = true;
+        Time.timeScale = 0.0f;
+    }
+}
 
